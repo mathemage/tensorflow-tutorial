@@ -13,6 +13,6 @@ addons:
     - g++-4.9
     - libstdc++6
 before-script:
-- bash mnist-for-ml-beginners/MNIST_data/download_mnist.sh
+- bash mnist/MNIST_data/download_mnist.sh
 script:
 - bash test/test_builds.sh

@@ -9,4 +9,4 @@ python3 $script_dir/../getting-started/linear-regression-tf-core-version.py
 # python3 $script_dir/../getting-started/linear-regression-contrib-version.py
 # python3 $script_dir/../getting-started/linear-regression-custom.py
 
-( cd $script_dir/../mnist-for-ml-beginners/ && python3 mnist-softmax.py )
+( cd $script_dir/../mnist/ && python3 mnist-softmax.py )

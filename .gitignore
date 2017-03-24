@@ -1,2 +1,2 @@
 .idea/
-mnist-for-ml-beginners/MNIST_data/*.gz
+mnist/MNIST_data/*.gz
