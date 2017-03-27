@@ -10,6 +10,9 @@ addons:
     - ubuntu-toolchain-r-test
     packages:
     - build-essential
+before-install:
+- pip install --no-binary=:all: numpy
+- pip3 install --no-binary=:all: numpy
 before-script:
 - bash -x mnist/MNIST_data/download_mnist.sh
 script:
