@@ -4,9 +4,9 @@ set -e
 script_dir=`dirname $0`
 echo "Directory of script $0 is $script_dir"
 
-python3 -d $script_dir/../getting-started/linear-regression-tf-core-version.py
+python3 -v $script_dir/../getting-started/linear-regression-tf-core-version.py
 # the following script is disabled: the code (copied from TensorFlow tutorial) produces segfaults
-# python3 -d $script_dir/../getting-started/linear-regression-contrib-version.py
-# python3 -d $script_dir/../getting-started/linear-regression-custom.py
+# python3 -v $script_dir/../getting-started/linear-regression-contrib-version.py
+# python3 -v $script_dir/../getting-started/linear-regression-custom.py
 
-( cd $script_dir/../mnist/ && python3 -d mnist-softmax.py )
+( cd $script_dir/../mnist/ && python3 -v mnist-softmax.py )
